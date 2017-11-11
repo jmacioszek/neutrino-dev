@@ -142,7 +142,7 @@ to `build/static`. To change this behavior, specify your own patterns with
 
 ## Paths
 
-The `neutrino-preset-web` preset loads assets relative to the path of your application by setting Webpack's
+The `neutrino-preset-web` preset loads assets relative to the path of your application by setting webpack's
 [`output.publicPath`](https://webpack.js.org/configuration/output/#output-publicpath) to `./`. If you wish to load
 assets instead from a CDN, or if you wish to change to an absolute path for your application, customize your build to
 override `output.publicPath`. See the [Customizing](#Customizing) section below.
@@ -245,7 +245,7 @@ First, install `react-hot-loader` as a dependency, this **must** be React Hot Lo
 ---
 
 - From your `index` entry point (defaults to `src/index.*` from `neutrino.options.entry`), import an `AppContainer`
-from `react-hot-loader`. The main file may be named `index.js` or `index.jsx`. The extension is resolved by Webpack.
+from `react-hot-loader`. The main file may be named `index.js` or `index.jsx`. The extension is resolved by webpack.
 - Wrap your top-level React component in the `AppContainer`.
 - Perform the application render in a reusable function for initial load and subsequent reloads.
 - Add the `hot` acceptance to call this function.

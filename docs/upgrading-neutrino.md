@@ -6,7 +6,7 @@ this latest version:
 
 - **BREAKING CHANGE** webpack-chain upgraded to v4. The breakage from this upgrade is the `.noParse` method
 which is now a plain shortcut method, allowing you to set any value.
-- **BREAKING CHANGE** Webpack upgraded to v3. While most users should need no changes for this upgrade, be
+- **BREAKING CHANGE** webpack upgraded to v3. While most users should need no changes for this upgrade, be
 aware that it may still be possible for something to change during this upgrade.
 - **BREAKING CHANGE** The Web and React presets no longer include babel-polyfill by default, and have removed
 the `polyfill.babel` option. If you need babel-polyfill in your app, please import it.

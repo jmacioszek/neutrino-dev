@@ -40,7 +40,7 @@ const banner = require('neutrino-middleware-banner');
 // Use with default options
 neutrino.use(banner);
 
-// Also accepts options for Webpack's BannerPlugin
+// Also accepts options for webpack's BannerPlugin
 // https://webpack.js.org/plugins/banner-plugin/
 
 // Usage shows the default values of this middleware:
@@ -60,7 +60,7 @@ module.exports = {
   use: ['neutrino-middleware-banner']
 };
 
-// Also accepts options for Webpack's BannerPlugin
+// Also accepts options for webpack's BannerPlugin
 // https://webpack.js.org/plugins/banner-plugin/
 
 // Usage shows the default values of this middleware:

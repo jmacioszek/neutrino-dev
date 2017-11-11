@@ -1,6 +1,6 @@
 # Neutrino Hot Middleware
 
-`neutrino-middleware-hot` is Neutrino middleware for enabled Hot Module Replacement with Webpack's
+`neutrino-middleware-hot` is Neutrino middleware for enabled Hot Module Replacement with webpack's
 `HotModuleReplacementPlugin`. This middleware is usually only added during development.
 
 [![NPM version][npm-image]][npm-url]

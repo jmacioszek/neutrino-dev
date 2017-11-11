@@ -56,7 +56,7 @@ options set by `.neutrinorc.js` middleware can have their values overridden by `
 
 ## `--inspect`
 
-The `--inspect` flag can be used to write out a stringified version of the Webpack configuration which has been
+The `--inspect` flag can be used to write out a stringified version of the webpack configuration which has been
 accumulated by all middleware. When using the `--inspect` flag, the Neutrino CLI will still import all presets and
 middleware that have been supplied, but will then exit after logging the configuration to stdout. No builds, servers, or
 watchers will be started.
